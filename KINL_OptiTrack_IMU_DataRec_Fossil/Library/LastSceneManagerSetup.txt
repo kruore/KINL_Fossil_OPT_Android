@@ -1,0 +1,6 @@
+sceneSetups:
+- path: Assets/00_KINLAB/01. Scene/05 IMU+OptiTrack+AzureKinect+Tizen/20210128/00
+    KINL Software 01 Title.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

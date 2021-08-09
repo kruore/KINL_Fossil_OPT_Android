@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/00_KINLAB/01. Scene/05 IMU+OptiTrack+AzureKinect+Tizen/20210128/00
+      KINL Software 01 Title.unity
+    guid: 23ae985e31c18954da624152c7279d78
+  - enabled: 1
+    path: Assets/00_KINLAB/01. Scene/05 IMU+OptiTrack+AzureKinect+Tizen/20210128/01
+      KINL Software 01 Setting Page.unity
+    guid: 57fb7270fe4c92c438ae90948118732c
+  - enabled: 1
+    path: Assets/00_KINLAB/01. Scene/05 IMU+OptiTrack+AzureKinect+Tizen/20210128/02
+      KINL Software 01 IMU Connetion.unity
+    guid: 73094aa27d21c5741b138e9fb864051a
+  - enabled: 1
+    path: Assets/00_KINLAB/01. Scene/05 IMU+OptiTrack+AzureKinect+Tizen/20210128/03
+      KINL Software 01 Main Scene.unity
+    guid: 81836c3775075054c96ebe4e084d8a08
+  - enabled: 1
+    path: Assets/00_KINLAB/01. Scene/05 IMU+OptiTrack+AzureKinect+Tizen/20210128/04
+      KINL Software 01 Terminated.unity
+    guid: b947930b045a7a045921fa37d78e6b38
+  m_configObjects: {}
