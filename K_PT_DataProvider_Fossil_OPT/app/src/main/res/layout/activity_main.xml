@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/buttonBLE"
+        android:layout_height="46dp"
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        style="@style/connectivity_indicator">
+
+
+        <ImageView
+            android:id="@+id/connectivity_icon"
+            android:layout_centerHorizontal="true"
+            android:src="@null"
+            style="@style/connectivity_indicator_icon" />
+        <!--@drawable/bluetooth_line-->
+        <TextView
+            android:id="@+id/connectivity_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/connectivity_icon"
+            android:layout_centerHorizontal="true"
+            android:text="@string/BLE"
+            style="@style/connectivity_indicator_text" />
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="@string/hello_world" />
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="@string/hello_world" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="@string/arrow" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="@string/hello_world"
+        android:textSize="25dp" />
+
+    <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+
+            android:text="@string/hello_world" />
+
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/hello_world" />
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:text="@string/hello_world" />
+        <Button
+            android:id="@+id/button1"
+            android:background="@null"
+            android:layout_gravity="center|right"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+
+            android:text="OK"
+
+            />
+
+
+        <!--
+        <ImageButton
+            android:id="@+id/lovebtn"
+            android:src="@drawable/ic_cloud_happy"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+
+
+            />
+
+-->
+
+
+</LinearLayout>
+
